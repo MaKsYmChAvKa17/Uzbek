@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #1D3557;
+
+}
+
+.title{
+    color: white;
+    font-weight: 700;
+}
+
+.text{
+    color: white;
+    margin: 5px;
+}
+
+.div{
+    background-color: #A3B18A;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+h1{
+    margin-left: 300px;
+}
+
+
+.about{
+    display: flex;
+}
+
+.Filter{
+    display: flex;
+    margin: 20px;
+    background-color: #1D3557;
+    width:200px;
+    border-radius: 30px;
+    color: white;
+}
