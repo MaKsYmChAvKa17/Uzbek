@@ -32,11 +32,42 @@ h1{
     display: flex;
 }
 
+.KATALOG{
+    background-color: #A3B18A;
+    margin: 20px;
+    border-radius: 30px;
+    height: 1100px;
+}
+
 .Filter{
     display: flex;
     margin: 20px;
     background-color: #1D3557;
     width:200px;
+    height:250px;
     border-radius: 30px;
+    color: white;
+}
+
+
+.Product_cards{
+    display: flex;
+}
+
+.card-img-top{
+    width: 100px;
+    height: 150px;
+}
+
+.container{
+    background-color: #1D3557;
+    margin: 0px;
+}
+
+footer{
+    background-color: #1D3557;
+}
+
+.footer-text{
     color: white;
 }
