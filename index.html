@@ -15,13 +15,13 @@
         </a>
   
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Про нас</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Каталог</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Залишити заявку</a></li>
+          <li class="nav-item"><a href="#main" class="nav-link" aria-current="page">Про нас</a></li>
+          <li class="nav-item"><a href="#shop" class="nav-link">Каталог</a></li>
+          <li class="nav-item"><a href="#call" class="nav-link">Залишити заявку</a></li>
         </ul>
       </header>
     <main>
-        <div class="div">
+        <div class="div" id="main">
             <h1>Про нас</h1>
             <div class="about">
                 <img style="width: 200px; height: 200px; margin: 20px;" src="img/santechik_kherson.jpg" alt="">
@@ -39,26 +39,25 @@
                 </div>
             </div>  
         </div>
-        <div class="KATALOG">
+        <div class="KATALOG" id="shop">
             <h1>Каталог</h1>
             <div class="Filter">
                 <ul>
+                    <p>В наявності:</p>
                     <li>Крани</li>
                     <li>Унітази</li>
                     <li>Умивальники</li>
-                    <li>Труби</li>
                     <li>Ванни</li>
-                    <li>Душові кабіни</li>
-                    <li>Батареї</li>
                     <li>Бойлери</li>
                 </ul>
                 <div class="Product_cards">
-                    <div class="Boylery">
+                    <div class="Cards">
                         <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
                                 <img src="img/Бойлер Atlantic.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                 <h5 class="card-title">Бойлер Atlantic Opro Sample R 80</h5>
-                                <a href="#" class="btn btn-primary">Додати в кошик</a>
+                                <p class="card-text">5 379 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
                                 </div>
                             </div>
                             
@@ -66,7 +65,8 @@
                                 <img src="img/Бойлер Superlux.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                 <h5 class="card-title">Бойлер SUPERLUX NTS 50V 1,5K</h5>
-                                <a href="#" class="btn btn-primary">Додати в кошик</a>
+                                <p class="card-text">5 199 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
                                 </div>
                             </div>
                             
@@ -74,48 +74,285 @@
                                 <img src="img/Бойлер Ariston.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                 <h5 class="card-title">Бойлер Ariston VELIS TECH 80 EU</h5>
-                                <a href="#" class="btn btn-primary">Додати в кошик</a>
+                                <p class="card-text">14 499 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
+                                <img src="img/Ванна  CERSANIT.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Ванна CERSANIT</h5>
+                                <p class="card-text">5 379 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                                <img src="img/Ванна BESCO.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Ванна BESCO</h5>
+                                <p class="card-text">5 199 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                                <img src="img/Ванна KALDEWEI.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Ванна KALDEWEI</h5>
+                                <p class="card-text">14 499 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
+                                <img src="img/ванна Kolo.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Ванна Kolo</h5>
+                                <p class="card-text">5 379 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                                <img src="img/Ванна SMAVIT.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Ванна SMAVIT</h5>
+                                <p class="card-text">5 199 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                                <img src="img/Ванна VAGNERPLAST.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Ванна VAGNERPLAST</h5>
+                                <p class="card-text">14 499 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
+                                <img src="img/Кран Aqua Rodos.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Кран Aqua Rodos</h5>
+                                <p class="card-text">5 379 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                                <img src="img/Кран Mixxen.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Кран Mixxen</h5>
+                                <p class="card-text">5 199 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                                <img src="img/Кран RJ.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Кран RJ</h5>
+                                <p class="card-text">14 499 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
+                                <img src="img/Кран Silver.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Кран Silver</h5>
+                                <p class="card-text">5 379 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                                <img src="img/Кран Traveler.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Кран Traveler</h5>
+                                <p class="card-text">5 199 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                                <img src="img/Кран Water House.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Кран Water House</h5>
+                                <p class="card-text">14 499 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
                                 </div>
                             </div>
                     </div>
                         
                     
                     
-                    <div class="Boylery2">
+                    <div class="Cards2">
                         <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
                             <img src="img/Бойлер Gorenje.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Бойлер Gorenje GBF 50 UA</h5>
-                                <a href="#" class="btn btn-primary">Додати в кошик</a>
+                                <p class="card-text">8 399 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
                             </div>
                         </div>
                         <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
                             <img src="img/Бойлер INTERLUX.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Бойлер INTERLUX ILDH-80DY</h5>
-                                <a href="#" class="btn btn-primary">Додати в кошик</a>
+                                <p class="card-text">11 899 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
                             </div>
                         </div>
                         <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
                             <img src="img/Бойлер BANZAI.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Бойлер BANZAI 80 DIRON20 E-ANODE VH</h5>
-                                <a href="#" class="btn btn-primary">Додати в кошик</a>
+                                <p class="card-text">11 015 ₴</p>
+                                <a href="#" class="btn btn-primary">Купити</a>
                             </div>
                         </div>
+
+                        <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
+                            <img src="img/Умивальник Adamant.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Умивальник Adamant</h5>
+                            <p class="card-text">5 379 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                            <img src="img/Умивальник Amidicon.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Умивальник Amidicon</h5>
+                            <p class="card-text">5 199 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                            <img src="img/Умивальник CERSANIT.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Умивальник CERSANIT</h5>
+                            <p class="card-text">14 499 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
+                            <img src="img/Умивальник Doosh.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Умивальник Doosh</h5>
+                            <p class="card-text">5 379 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                            <img src="img/Умивальник EGO.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Умивальник EGO</h5>
+                            <p class="card-text">5 199 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                            <img src="img/Умивальник Kolo.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Умивальник Kolo</h5>
+                            <p class="card-text">14 499 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
+                            <img src="img/Унітаз ALDO.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Унітаз ALDO</h5>
+                            <p class="card-text">5 379 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                            <img src="img/Унітаз Cersanit.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Унітаз Cersanit</h5>
+                            <p class="card-text">5 199 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                            <img src="img/Унітаз DEVIT.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Унітаз DEVIT</h5>
+                            <p class="card-text">14 499 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem; margin-left: 80px; margin-top: 20px;">
+                            <img src="img/Унітаз KLECHNIOWSKA.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Унітаз KLECHNIOWSKA</h5>
+                            <p class="card-text">5 379 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                            <img src="img/Унітаз KRONER.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Унітаз KRONER</h5>
+                            <p class="card-text">5 199 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: 18rem; margin-left: 80px;margin-top: 20px;">
+                            <img src="img/Унітаз VOLLE.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Унітаз VOLLE</h5>
+                            <p class="card-text">14 499 ₴</p>
+                            <a href="#" class="btn btn-primary">Купити</a>
+                            </div>
+                        </div>
+
                     </div>
                     
                 </div>
             </div>
             
         </div>
+        <div class="div">
+            <h1>Хочете замовити майстра для установки?</h1>
+            <section class="call">
+                <form class="row g-3">
+                    <div class="col-auto">
+                    <label for="staticEmail2" class="visually-hidden">Email</label>
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="+380">
+                    </div>
+                    <div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">Номер телефону</label>
+                    <input type="password" class="form-control" id="inputPassword2" placeholder="Номер телефону">
+                    </div>
+                    <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3" id="call">Залишити заявку</button>
+                    </div>
+                </form>
+            </section>
+        </div>  
     </main>
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
           <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
               <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
             </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2024, MOLOT</span>
+            <span class="mb-3 mb-md-0 text">© 2024, MOLOT</span>
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

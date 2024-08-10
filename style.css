@@ -36,7 +36,7 @@ h1{
     background-color: #A3B18A;
     margin: 20px;
     border-radius: 30px;
-    height: 1100px;
+    height: 5100px;
 }
 
 .Filter{
@@ -44,7 +44,7 @@ h1{
     margin: 20px;
     background-color: #1D3557;
     width:200px;
-    height:250px;
+    height:170px;
     border-radius: 30px;
     color: white;
 }
@@ -70,4 +70,15 @@ footer{
 
 .footer-text{
     color: white;
+}
+
+.text{
+    color: #fff;
+}
+
+.call{
+    margin: 20px;
+}
+.g-3{
+    margin-left: 200px;
 }
